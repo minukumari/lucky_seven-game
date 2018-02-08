@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucky Seven</title>
+	<style>
+		.style1{
+			color: #ff00ff;
+			margin: 50px;
+		}
+		.tetbox{
+		     font-style: monospace;
+			border-radius: 10px;
+			height: 30px;
+			color: red;
+			font-weight: 600;
+		}
+		.playbutton{
+			color: #0000ff;
+			font-size: medium;
+			border-radius: 20px;
+			background-color: powder blue;
+			height: 50px;
+			width: 90px;
+			font-style: monospace;
+			font-weight: 700;
+			margin-left: 140px;
+
+		}
+		.playbutton:hover{
+			background-color: #ff0000;
+			color: yellow;
+		}
+		body{
+			background-color: #00ffdd;
+		}
+	</style>
+</head>
+<body>
+<div class="style1">
+	<h1 align="center">LUCKY SEVEN</h1>
+	<br>
+	<h2 class="style1"> Starting bet : <input class="tetbox" type="text" name="bet" id="initialbet" value="Rs.0"></h2>
+	<button onclick="luckyseven()" class="playbutton" id="p2" type="button">Play</button>
+
+</div>
+<div style="text-align:center;" id="p1"></div>
+
+<script src="lucky_seven.js"></script>
+</body>
+</html>
